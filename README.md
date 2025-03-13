@@ -28,7 +28,7 @@ The scraper is built with a modular architecture that separates concerns and all
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  AsyncWebScraper │────▶│   PageFetcher   │────▶│  ContentProcessor│
+│ AsyncWebScraper │────▶│   PageFetcher   │────▶│Content Processor│
 └─────────────────┘     └─────────────────┘     └─────────────────┘
          │                      │                        │
          ▼                      ▼                        ▼
